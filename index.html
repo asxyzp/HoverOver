@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hover Over</title>
+        <link rel="icon" href="HoverOver_logo.png"/>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link rel="stylesheet" type="text/css" href="bootstrap.min.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <script src="jquery-3.5.0.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div>
+            <header>
+                <div class="heading-div box-style container-fluid">
+                        <h1 class="heading bold-text">HoverOver</h1>
+                </div>
+            </header>
+
+            <!--audio sources-->
+            <audio id="b6">                            <!--Source1-->
+                <source src="b6.ogg" type="audio/ogg">
+            </audio>
+            <audio id="c6">                            <!--Source1-->
+                <source src="c6.ogg" type="audio/ogg">
+                audio is not supported by your browser
+            </audio>
+            <audio id="d6">                            <!--Source2-->
+                <source src="d6.ogg" type="audio/ogg">
+            </audio>
+            <audio id="e6">                            <!--Source3-->
+                <source src="e6.ogg" type="audio/ogg">
+            </audio>
+            <audio id="f6">                            <!--Source4-->
+                <source src="f6.ogg" type="audio/ogg">
+            </audio>
+            <audio id="g6">                            <!--Source5-->
+                <source src="g6.ogg" type="audio/ogg">
+            </audio>
+            
+            
+            <div class="container-fluid" id="showOrNot">
+                <div class="row justify-content-center">
+                    <div onmouseover="playRandomAudio();" class="col-xs-1 circle change-state-1"></div>
+                    <div onmouseover="playRandomAudio();" class="col-xs-1 circle change-state-2"></div>
+                    <div onmouseover="playRandomAudio();" class="col-xs-1 circle change-state-3"></div>
+                    <div onmouseover="playRandomAudio();" class="col-xs-1 circle change-state-4"></div>              
+                </div>
+                <div class="row justify-content-center">
+                    <div onmouseover="playRandomAudio();" class="col-xs-1 circle change-state-5"></div>
+                    <div onmouseover="playRandomAudio();" class="col-xs-1 circle change-state-6"></div>
+                    <div onmouseover="playRandomAudio();" class="col-xs-1 circle change-state-7"></div>
+                    <div onmouseover="playRandomAudio();" class="col-xs-1 circle change-state-8"></div>              
+                </div>
+                <div class="row justify-content-center">
+                    <div onmouseover="playRandomAudio();" class="col-xs-1 circle change-state-9"></div>
+                    <div onmouseover="playRandomAudio();" class="col-xs-1 circle change-state-10"></div>
+                    <div onmouseover="playRandomAudio();" class="col-xs-1 circle change-state-11"></div>
+                    <div onmouseover="playRandomAudio();" class="col-xs-1 circle change-state-12"></div>              
+                </div>
+                <div class="row justify-content-center">
+                    <div onmouseover="playRandomAudio();" class="col-xs-1 circle change-state-13"></div>
+                    <div onmouseover="playRandomAudio();" class="col-xs-1 circle change-state-14"></div>
+                    <div onmouseover="playRandomAudio();" class="col-xs-1 circle change-state-15"></div>
+                    <div onmouseover="playRandomAudio();" class="col-xs-1 circle change-state-16"></div>              
+                </div>
+            </div>
+            <footer>
+                <div><span class="bold-text text-underline">Instructions</span> : Hover over the circle to change it's colors & produce sound.</div>
+                <div>Not suitable for <span class="bold-text text-underline">Mobile</span>.</div>
+                <div>Created by <a class="bold-text" href="http://asxyzp.glitch.me" target="_blank">asxyzp</a>.</div>
+            </footer>
+        </div>
+    </body>
+<html>

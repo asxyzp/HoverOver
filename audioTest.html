@@ -1,0 +1,29 @@
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+
+<p id="audioText" onclick="playAudio()">C1 play</p>
+
+<audio id="audio">
+    <source src="c1.ogg" type="audio/ogg"/>
+</audio>
+
+<style>
+    #audioText{
+        font-size:34px;
+        font-weight:bolder;
+        padding:1%;
+        border:2px solid #000;
+        box-shadow: 2px 2px;
+        width:12%;
+        margin:1%;
+    }
+    #audioText:hover{
+        background:rgb(240,240,240);
+    }
+</style>
+
+<script type="text/javascript">
+    function playAudio(){
+        var audio= document.getElementById("audio");
+        audio.play();
+    }
+</script>

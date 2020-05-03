@@ -1,0 +1,64 @@
+body{
+    background: rgb(230,230,230);
+}
+/*Styling the heading division container*/
+.heading-div
+{    
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+/*Styling the heading*/
+.heading
+{
+    font-family: 'Lobster',cursive;
+    font-size:38px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*Styling heading box*/
+.box-style{
+    padding:0.5%;
+}
+
+/*styling the circle*/
+.circle{
+    border: 2px solid #000;
+    border-radius:50%;
+    margin: 0.3%;
+    height:1%;
+    width:1%;
+    padding:4%;
+    box-shadow:5px 5px;
+}
+
+/*Styling the footer*/
+footer{
+    margin-top:10px;
+    text-align: center;
+}
+
+.bold-text{font-weight: bolder;}
+.text-underline{text-decoration: underline;}
+
+
+@media (max-width:990px)
+{
+    .heading{
+        font-family:'Lobster',cursive;
+        font-size: 100px;
+        margin-top:25%;
+    }
+    .circle{
+        padding:10%;
+        height:3%;
+        width:3%;
+    }
+    footer{
+        width:96%;
+        margin-top:25px;
+        font-size: 45px;
+        font-family: monospace;
+    }
+}
